@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <title>Airbnb Clone</title>
+</head>
+
+<body>
+    <header>
+
+        <!-- Search Bar -->
+        <div class="w-screen flex place-items-center fixed bg-white p-5 gap-2">
+            <div class="flex items-center border rounded-full shadow-md">
+                <button class="p-2 grid-cols-2">
+                    <i class="fa-solid fa-magnifying-glass p-2"></i>
+                    <span class="text-sm font-medium">Anywhere</span>
+                    <span class="text-xs font-light text-gray-500">Any week . Add guests</span>
+                </button>
+            </div>
+
+            <div class="flex justify-around p-2 items-center rounded-full shadow-md border">
+                <button>
+                    <i class="fa-solid fa-sliders p-2"></i>
+                </button>
+                
+            </div>
+
+        </div>
+
+
+        <!-- Category Bar -->
+        <div class="w-screen flex items-center space-x-5 bg-white fixed shadown-md p-5 border-b-2 top-20">
+            <nav class="">
+                <ul class="flex justify-evenly text-sm text-gray-400 gap-5">
+                    <li class="category items-center">
+                        <span class="material-symbols-outlined">castle</span>
+                        <p class="category-text">Castle</p>
+                    </li>
+
+                    <li class="category items-center">
+                        <span class="material-symbols-outlined">beach_access</span>
+                        <p class="category-text">Beach</p>
+                    </li>
+
+                    <li class="category items-center">
+                        <span class="material-symbols-outlined">sailing</span>
+                        <p class="category-text">Boats</p>
+                    </li>
+
+                    <li class="category  items-center">
+                        <span class="material-symbols-outlined">local_fire_department</span>                    
+                        <p class="category-text">Hot</p>
+                    </li>
+
+                    <li class="category items-center">
+                        <span class="material-symbols-outlined">camping</span>                 
+                        <p class="category-text">Camp</p>
+                    </li>
+
+                    <li class="category items-center">
+                        <span class="material-symbols-outlined">key</span>                 
+                        <p class="category-text">New</p>
+                    </li>
+
+                   <!-- Extra Categories
+                    <li class="category items-center ">
+                        <span class="material-symbols-outlined">cabin</span>
+                        <p class="category-text">Cabins</p>
+                    </li>
+
+                    <li class="category items-center text-gray-400">
+                        <span class="material-symbols-outlined">sports_golf</span>
+                        <p class="category-text">Golfing</p>
+                    </li>
+
+                    <li class="category items-center text-gray-400">
+                        <span class="material-symbols-outlined">ac_unit</span>
+                        <p class="category-text">Arctic</p>
+                    </li>
+                -->
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+
+
+        <!-- Lodging Listings -->
+    <main>
+        <div class="flex flex-col p-5 top-80">
+            <div class="text-sm w-72 text-gray-500 mt-5">
+                <img class="h-72 w-72 rounded-xl" src="https://a0.muscache.com/im/pictures/f672c9b4-cc80-46bc-890b-a085efaee2d7.jpg?im_w=720" alt=""/>
+                <div class="flex justify-between mt-2">
+                    <p><strong>Hertforshire, UK</strong></p>
+                    <div class="flex">
+                        <i class="fa-solid fa-star"></i>
+                        <p>5.0</p>
+                    </div>
+                </div>
+                <p>Individual Host</p>
+                <p>6-11 Feb</p>
+                <p class="underline mt-1"><strong>$1,374</strong> total</p>
+            </div>
+
+            <div class="text-sm w-72 text-gray-500 mt-5">
+                <img class="h-72 w-72 rounded-xl" src="https://a0.muscache.com/im/pictures/8efb200c-6dcb-460d-a367-caa511506077.jpg?im_w=720" alt=""/>
+                <div class="flex justify-between mt-2">
+                    <p><strong>Hertforshire, UK</strong></p>
+                    <div class="flex">
+                        <i class="fa-solid fa-star"></i>
+                        <p>5.0</p>
+                    </div>
+                </div>
+                <p>Individual Host</p>
+                <p>6-11 Feb</p>
+                <p class="underline mt-1"><strong>$1,374</strong> total</p>
+            </div>
+
+            <div class="text-sm w-72 text-gray-500 mt-5">
+                <img class="h-72 w-72 rounded-xl" src="https://a0.muscache.com/im/pictures/018d2460-32ef-4c08-b802-2127e19f4d71.jpg?im_w=720" alt=""/>
+                <div class="flex justify-between mt-2">
+                    <p><strong>Hertforshire, UK</strong></p>
+                    <div class="flex">
+                        <i class="fa-solid fa-star"></i>
+                        <p>5.0</p>
+                    </div>
+                </div>
+                <p>Individual Host</p>
+                <p>6-11 Feb</p>
+                <p class="underline mt-1"><strong>$1,374</strong> total</p>
+            </div>
+
+            <div class="text-sm w-72 text-gray-500 mt-5">
+                <img class="h-72 w-72 rounded-xl" src="https://a0.muscache.com/im/pictures/miso/Hosting-53427254/original/2f26b277-ca8e-4c7b-bec2-d72f61803234.jpeg" alt=""/>
+                <div class="flex justify-between mt-2">
+                    <p><strong>Hertforshire, UK</strong></p>
+                    <div class="flex">
+                        <i class="fa-solid fa-star"></i>
+                        <p>5.0</p>
+                    </div>
+                </div>
+                <p>Individual Host</p>
+                <p>6-11 Feb</p>
+                <p class="underline mt-1"><strong>$1,374</strong> total</p>
+            </div>
+
+            <div class="text-sm w-72 text-gray-500 mt-5">
+                <img class="h-72 w-72 rounded-xl" src="https://a0.muscache.com/im/pictures/prohost-api/Hosting-857195825275996733/original/616f03db-fea6-4e1e-b215-20e26d898158.jpeg?im_w=720" alt=""/>
+                <div class="flex justify-between mt-2">
+                    <p><strong>Hertforshire, UK</strong></p>
+                    <div class="flex">
+                        <i class="fa-solid fa-star"></i>
+                        <p>5.0</p>
+                    </div>
+                </div>
+                <p>Individual Host</p>
+                <p>6-11 Feb</p>
+                <p class="underline mt-1"><strong>$1,374</strong> total</p>
+            </div>
+
+        </div>
+    </main>
+
+
+    <!-- Bottom Search Bar -->
+    <nav class="flex justify-evenly pl-20 pr-20 pt-5 pb-5 bg-white fixed bottom-0 ">
+        <ul class="flex justify-evenly text-sm text-gray-400 gap-5">
+            <li class="category items-center">
+                <span class="material-symbols-outlined">search</span>                 
+                <p class="category-text">Explore</p>
+            </li>
+            <li class="category items-center">
+                <span class="material-symbols-outlined">favorite</span>                 
+                <p class="category-text">Wishlists</p>
+            </li>
+
+            <li class="category items-center">
+                <span class="material-symbols-outlined">account_circle</span>                 
+                <p class="category-text">Login</p>
+            </li>
+
+        </ul>
+    </nav>
+
+    <!-- Map Button -->
+    <div class="flex fixed bottom-20 bg-black rounded-full place-items-center left-32">
+        <div class="flex justify-evenly items-center text-white text-xs p-2 gap-2 h-8 w-20">
+            <p>Map</p>
+            <span class="material-symbols-outlined">view_week</span>
+        </div>
+    </div>
+
+
+    <!-- Support Services -->
+
+    <div class='bottom-info text-xs text-gray-500 p-5 border-t-2 border-b-2'>
+        <nav id="support-bar">
+        <h3 id="support"><strong>Support</strong></h3>
+        <ul class="mt-2">
+            <li class="mt-1"><a class="support-link" href="">Help Center</a></li>
+            <li class="mt-1"><a class="support-link" href="">AirCover</a></li>
+            <li class="mt-1"><a class="support-link" href="">Anti-discrimnation</a></li>
+            <li class="mt-1"><a class="support-link" href="">Disability Support</a></li>
+            <li class="mt-1"><a class="support-link" href="">Cancellation options</a></li>
+            <li class="mt-1"><a class="support-link" href="">Report neighbourhood concern</a></li>
+        </ul>
+        </nav>
+    </div>
+
+    <!-- Hosting -->
+
+    <div class='bottom-info text-xs text-gray-500 p-5 border-b-2'>
+        <nav id="hosting-bar">
+        <h3 id="hosting"><strong>Hosting</strong></h3>
+        <ul class="mt-2">
+            <li class="mt-1"><a class="hosting-link" href="">Help Center</a></li>
+            <li class="mt-1"><a class="support-link" href="">Airbnb your home</a></li>
+            <li class="mt-1"><a class="support-link" href="">AirCover for hosts</a></li>
+            <li class="mt-1"><a class="hosting-link" href="">Hosting resources</a></li>
+            <li class="mt-1"><a class="hosting-link" href="">Community forum</a></li>
+            <li class="mt-1"><a class="hosting-link" href="">Hosting responsibly</a></li>
+        </ul>
+        </nav>
+    </div>
+
+    <!-- Airbnb Info-->
+
+    <div class='bottom-info text-xs text-gray-500 p-5 border-b-2'>
+        <nav id="info-bar">
+        <h3 id="airbnb"><strong>Airbnb</strong></h3>
+        <ul class="mt-2">
+            <li class="mt-1"><a class="info-link" href="">Newsroom</a></li>
+            <li class="mt-1"><a class="info-link" href="">New features</a></li>
+            <li class="mt-1"><a class="info-link" href="">Careers</a></li>
+            <li class="mt-1"><a class="info-link" href="">Investors</a></li>
+            <li class="mt-1"><a class="info-link" href="">Gift Cards</a></li>
+            <li class="mt-1"><a class="info-link" href="">Airbnb.org emergency stays</a></li>
+        </ul>
+        </nav>
+    </div>
+
+</body>
+
+
+    <!-- Footer -->
+<footer class="text-xs text-gray-500 p-5 bottom-40">© Winnie Lau 2024
+    <nav id="footer-bar">
+      <ul >
+        <li><a class="footer-link" href="">Privacy . Terms . Sitemap</a></li>
+        <li><a class="footer-link" href="">UK Modern Slavery Act</a></li>
+        <li><a class="footer-link" href="">Company details</a></li>
+      </ul>
+    </nav>
+</footer>
+
+</html>
